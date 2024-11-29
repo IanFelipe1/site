@@ -1,0 +1,48 @@
+img {
+    width: 375px;
+    height: 375px;
+    border-radius: 350%;
+    margin-left: 90px;
+}
+
+.cores{
+    color: yellow;
+    background-color: red;
+    text-align: center;
+}
+
+p {
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(249,238,4,1) 0%, rgba(255,0,0,1) 100%);
+
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(249,238,4,1) 0%, rgba(255,0,0,1) 100%);
+    color:yellow;
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: red;
+  }
+  #tamanho{
+    font-size: 30px;
+  }
